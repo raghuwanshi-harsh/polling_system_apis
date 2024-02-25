@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "connect-mongo": "^3.2.0",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.0.3",
+    "nodemon": "^3.1.0"
+  },
+  "name": "polling_system_api",
+  "version": "1.0.0",
+  "description": "create an API where anyone can create questions with options and also add votes to it",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Harsh Raghuwanshi",
+  "license": "ISC"
+}
